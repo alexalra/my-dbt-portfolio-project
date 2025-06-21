@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    description: a clone of a Postgres application database
+    database: raw
+    schema: jaffle_shop
+    freshness: 
+      warn_after: {count: 12, period: hour}
+      error_after: {count: 2, period: day}
+    loaded_at_field: _ETL_LOADED_AT
+    tables:
+      - name: customers
+        description: raw data from customers
+        freshness: null
+        columns:
+          - name: id
+            description: primary key for customers
+      - name: orders
+        description: raw data from orders 
+
