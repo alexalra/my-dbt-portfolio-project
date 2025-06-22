@@ -1,6 +1,6 @@
 # 🧠 DBT Fundamentals Project
 
-This project is part of the **DBT Fundamentals Course**, designed to teach core concepts and best practices for building modern data transformation pipelines using **dbt (data build tool)**.
+This project is part of the **DBT Fundamentals Course** (https://learn.getdbt.com/courses/dbt-fundamentals), designed to teach core concepts and best practices for building modern data transformation pipelines using **dbt (data build tool)**.
 
 As part of the course, I completed hands-on exercises and built a sample dbt project, which includes models, sources, seeds, tests, and documentation — all structured according to dbt’s modular and scalable framework.
 
